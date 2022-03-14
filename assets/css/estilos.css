@@ -1,0 +1,58 @@
+body {
+    background:linear-gradient(150deg, #eba102, #f10271, #00c298);
+    
+}
+
+#div1 {
+     overflow:scroll;
+     height:350px;
+     width:850px;
+}
+#div1 table {
+    width:850px;
+    background-color:lightgray;
+   
+}
+
+#div2 {
+     overflow:scroll;
+     height:300px;
+     width:550px;
+}
+
+#div2 table {
+    width:550px;
+    background-color:lightgray;
+    
+}
+
+
+h3 {
+	font-size: 27px;
+	font-family:courier bold;
+    color: dark;
+	
+}
+
+#p1 {
+	font-size:17px;
+	margin-left: 35px;
+    margin-right: 35px;
+	text-align: justify;
+    
+}
+
+#ul {
+	font-size:17px;
+	margin-left: 30px;
+
+}
+.main-content{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
