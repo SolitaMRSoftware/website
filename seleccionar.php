@@ -82,7 +82,7 @@ if (isset($_POST['codigo'])) {
  //SDK de Mercado Pago
 require __DIR__. '/vendor/autoload.php';
  // Agrega credenciales
-MercadoPago\SDK::setAccessToken('APP_USR-7576278284420186-111003-1a21b357b4e591fd3e0655f70ce53fca-48281222');
+MercadoPago\SDK::setAccessToken('');
 
 // Crea un objeto de preferencia
 $preference = new MercadoPago\Preference();
